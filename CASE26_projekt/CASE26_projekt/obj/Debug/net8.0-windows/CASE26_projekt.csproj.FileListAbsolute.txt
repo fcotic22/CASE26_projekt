@@ -1,0 +1,3 @@
+C:\Users\user\source\repos\fcotic22\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\user\source\repos\fcotic22\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\user\source\repos\fcotic22\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\CASE26_projekt_MarkupCompile.cache
