@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\fcotic22\\CASE26_projekt\\CASE26_projekt\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EA48648-F107-4BD9-8CED-EE90998D0393}|CASE26_projekt\\CASE26_projekt.csproj|c:\\users\\user\\source\\repos\\fcotic22\\case26_projekt\\case26_projekt\\case26_projekt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9EA48648-F107-4BD9-8CED-EE90998D0393}|CASE26_projekt\\CASE26_projekt.csproj|c:\\users\\user\\desktop\\case_2026_projekt\\repo\\case26_projekt\\case26_projekt\\case26_projekt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EA48648-F107-4BD9-8CED-EE90998D0393}|CASE26_projekt\\CASE26_projekt.csproj|solutionrelative:case26_projekt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -132,9 +132,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\fcotic22\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CASE26_projekt\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\fcotic22\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\MainWindow.xaml.cs",
               "RelativeToolTip": "CASE26_projekt\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

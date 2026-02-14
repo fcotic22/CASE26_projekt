@@ -4,9 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CASE26_projekt"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        mc:Ignorable="d" d:DesignWidth="800" Height="700">
+    <DockPanel Margin="10">
+        <TextBox x:Name="OutputTextBox" IsReadOnly="True" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" DockPanel.Dock="Top" Height="550"/>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+            <TextBox x:Name="InputTextBox" Width="600" Margin="0,0,10,0" Height="55"/>
+            <Button Content="Send" Width="100" Click="SendButton_Click" KeyDown="Button_KeyDown" Height="55"/>
+        </StackPanel>
+    </DockPanel>
 </Window>

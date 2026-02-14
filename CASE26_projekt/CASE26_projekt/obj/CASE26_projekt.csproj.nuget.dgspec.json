@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\fcotic22\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt.csproj": {}
+    "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\fcotic22\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt.csproj": {
+    "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\fcotic22\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt.csproj",
         "projectName": "CASE26_projekt",
-        "projectPath": "C:\\Users\\user\\source\\repos\\fcotic22\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\fcotic22\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "LLamaSharp": {
+              "target": "Package",
+              "version": "[0.25.0, )"
+            },
+            "LLamaSharp.Backend.Cuda12": {
+              "target": "Package",
+              "version": "[0.25.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
