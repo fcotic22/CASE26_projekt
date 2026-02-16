@@ -14,6 +14,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.ml\5.0.0\build\netstandard2.0\Microsoft.ML.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml\5.0.0\build\netstandard2.0\Microsoft.ML.props')" />
     <Import Project="$(NuGetPackageRoot)llamasharp.backend.cpu\0.25.0\build\netstandard2.0\LLamaSharp.Backend.Cpu.props" Condition="Exists('$(NuGetPackageRoot)llamasharp.backend.cpu\0.25.0\build\netstandard2.0\LLamaSharp.Backend.Cpu.props')" />
     <Import Project="$(NuGetPackageRoot)llamasharp.backend.cuda12\0.25.0\build\netstandard2.0\LLamaSharp.Backend.Cuda12.props" Condition="Exists('$(NuGetPackageRoot)llamasharp.backend.cuda12\0.25.0\build\netstandard2.0\LLamaSharp.Backend.Cuda12.props')" />
   </ImportGroup>

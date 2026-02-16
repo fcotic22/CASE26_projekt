@@ -1,0 +1,242 @@
+﻿{
+  "Scenario": "Forecasting",
+  "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": false,
+    "KeepDiacritics": false,
+    "KeepPunctuations": false,
+    "AllowQuoting": false,
+    "Type": "TabularFile",
+    "FilePath": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\logoviElektraneNikola\\MIKULIĆ.csv",
+    "Delimiter": ";",
+    "DecimalMarker": ",",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Site Name",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Start Time",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Active power(kW)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Annual energy(kWh)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Conversion efficiency(%)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Daily energy(kWh)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Internal temperature(?)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Today's yield(kWh)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Total input power(kW)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Total PV yield(kWh)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Total yield(kWh)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1.6830668672488374,
+        "RuntimeInSeconds": 33.242,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 722,
+            "SeriesLength": 2072,
+            "TrainSize": 44276,
+            "Horizon": 10,
+            "OutputColumnName": "Daily energy(kWh)",
+            "InputColumnName": "Daily energy(kWh)",
+            "ConfidenceLowerBoundColumn": "Daily energy(kWh)_LB",
+            "ConfidenceUpperBoundColumn": "Daily energy(kWh)_UB"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1.7610272602761139,
+        "RuntimeInSeconds": 0.275,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 2,
+            "SeriesLength": 10,
+            "TrainSize": 44276,
+            "Horizon": 10,
+            "OutputColumnName": "Daily energy(kWh)",
+            "InputColumnName": "Daily energy(kWh)",
+            "ConfidenceLowerBoundColumn": "Daily energy(kWh)_LB",
+            "ConfidenceUpperBoundColumn": "Daily energy(kWh)_UB"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1.7610272602761139,
+        "RuntimeInSeconds": 0.052,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 2,
+            "SeriesLength": 506,
+            "TrainSize": 44276,
+            "Horizon": 10,
+            "OutputColumnName": "Daily energy(kWh)",
+            "InputColumnName": "Daily energy(kWh)",
+            "ConfidenceLowerBoundColumn": "Daily energy(kWh)_LB",
+            "ConfidenceUpperBoundColumn": "Daily energy(kWh)_UB"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1.7610272602761139,
+        "RuntimeInSeconds": 0.047,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 2,
+            "SeriesLength": 297,
+            "TrainSize": 44276,
+            "Horizon": 10,
+            "OutputColumnName": "Daily energy(kWh)",
+            "InputColumnName": "Daily energy(kWh)",
+            "ConfidenceLowerBoundColumn": "Daily energy(kWh)_LB",
+            "ConfidenceUpperBoundColumn": "Daily energy(kWh)_UB"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "ForecastBySsa",
+        "Score": 1.7610272602761139,
+        "RuntimeInSeconds": 0.043,
+        "Parameter": {
+          "_SCHEMA_": "e0",
+          "e0": {
+            "WindowSize": 2,
+            "SeriesLength": 41,
+            "TrainSize": 44276,
+            "Horizon": 10,
+            "OutputColumnName": "Daily energy(kWh)",
+            "InputColumnName": "Daily energy(kWh)",
+            "ConfidenceLowerBoundColumn": "Daily energy(kWh)_LB",
+            "ConfidenceUpperBoundColumn": "Daily energy(kWh)_UB"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "ForecastBySsa"
+    },
+    "Schema": "e0",
+    "MetricName": "RMSE",
+    "ModelFilePath": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\DailyEnergyPredictionModel.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 3,
+    "OptimizeMetric": "RMSE",
+    "Subsampling": false,
+    "Tuner": "eci-cfo",
+    "Type": "ForecastingTrainingOption",
+    "TrainingTime": 100,
+    "UseCrossValidation": false,
+    "Horizon": 12,
+    "TimeColumn": "Start Time",
+    "LabelColumn": "Daily energy(kWh)",
+    "UseDefaultIndex": false,
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "TrainValidateSplitValidationOption",
+      "SplitRatio": 0.2
+    }
+  }
+}

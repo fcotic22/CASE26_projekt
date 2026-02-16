@@ -57,6 +57,14 @@
             "LLamaSharp.Backend.Cuda12": {
               "target": "Package",
               "version": "[0.25.0, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.ML.TimeSeries": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [

@@ -5,9 +5,6 @@ using System.Windows;
 
 namespace CASE26_projekt
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -39,9 +36,17 @@ namespace CASE26_projekt
 
 
                 var chatHistory = new ChatHistory();
-                chatHistory.AddMessage(AuthorRole.System, "Ti si hrvatski chatbot koji je specijaliziran za pomoć u vezi pitanja korisnika vezanih za solarne elektrane. Na usluzi si i imaš pristupačan ton. Ukoliko korisnik pita pitanje koje nema veze sa temom lijepo korisniku objasniš da to nije tvoje polje djelovanja.");
-                chatHistory.AddMessage(AuthorRole.User, "Hej");
-                chatHistory.AddMessage(AuthorRole.Assistant, "Hej, kako ti mogu pomoći?");
+                chatHistory.AddMessage(AuthorRole.System,
+                "You are a strictly domain-limited assistant specialized ONLY in solar systems and residential solar power plants installation and maintenance.\n\n" +
+                "CRITICAL RULES:\n" +
+                "1. You MUST answer ONLY questions related to solar panels, photovoltaic systems, inverters, batteries, mounting systems, installation, maintenance, solar energy production and performance.\n" +
+                "2. If the question is NOT related to solar systems, you MUST refuse.\n" +
+                "3. When refusing, respond EXACTLY with:\n" +
+                "'I'm sorry, but I can only answer questions related to solar systems and photovoltaic power plants.'\n" +
+                "4. Do NOT provide any additional information when refusing.\n" +
+                "5. Do NOT attempt to reinterpret unrelated questions as solar-related.\n");
+                chatHistory.AddMessage(AuthorRole.User, "Hello");
+                chatHistory.AddMessage(AuthorRole.Assistant, "Hello, how may i help you?");
 
                 chatSession = new ChatSession(executor, chatHistory);
 
@@ -66,8 +71,16 @@ namespace CASE26_projekt
             }
 
             var input = InputTextBox.Text.Trim();
-            if (string.IsNullOrEmpty(input))
-                return;
+            if (string.IsNullOrEmpty(input)) return;
+            else if (input.Contains("predickija"))
+            {
+                var output = DailyEnergyPredictionModel.Predict(); //new DailyEnergyPredictionModel.ModelInput { Daily_energy_kWh_ = 0F }, 10);
+                if (output != null) 
+                {
+                    AppendText($"{input} + \n");
+                    for(int i=0; i<10; i++) { AppendText($"{output.Daily_energy_kWh_.GetValue(i)} \n"); }
+                }
+            }
 
             AppendText($"{input}\n");
             InputTextBox.Clear();

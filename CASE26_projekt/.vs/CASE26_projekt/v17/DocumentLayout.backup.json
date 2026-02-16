@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EA48648-F107-4BD9-8CED-EE90998D0393}|CASE26_projekt\\CASE26_projekt.csproj|c:\\users\\user\\desktop\\case_2026_projekt\\repo\\case26_projekt\\case26_projekt\\case26_projekt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EA48648-F107-4BD9-8CED-EE90998D0393}|CASE26_projekt\\CASE26_projekt.csproj|solutionrelative:case26_projekt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA48648-F107-4BD9-8CED-EE90998D0393}|CASE26_projekt\\CASE26_projekt.csproj|c:\\users\\user\\desktop\\case_2026_projekt\\repo\\case26_projekt\\case26_projekt\\case26_projekt\\dailyenergypredictionmodel.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA48648-F107-4BD9-8CED-EE90998D0393}|CASE26_projekt\\CASE26_projekt.csproj|solutionrelative:case26_projekt\\dailyenergypredictionmodel.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA48648-F107-4BD9-8CED-EE90998D0393}|CASE26_projekt\\CASE26_projekt.csproj|c:\\users\\user\\desktop\\case_2026_projekt\\repo\\case26_projekt\\case26_projekt\\case26_projekt\\dailyenergypredictionmodel.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{9EA48648-F107-4BD9-8CED-EE90998D0393}|CASE26_projekt\\CASE26_projekt.csproj|solutionrelative:case26_projekt\\dailyenergypredictionmodel.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,11 +142,36 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CASE26_projekt\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\MainWindow.xaml.cs",
-              "RelativeToolTip": "CASE26_projekt\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "CASE26_projekt\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwFAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T13:44:08.511Z",
+              "WhenOpened": "2026-02-16T19:32:37.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DailyEnergyPredictionModel.consumption.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\DailyEnergyPredictionModel.consumption.cs",
+              "RelativeDocumentMoniker": "CASE26_projekt\\DailyEnergyPredictionModel.consumption.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\DailyEnergyPredictionModel.consumption.cs",
+              "RelativeToolTip": "CASE26_projekt\\DailyEnergyPredictionModel.consumption.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T19:32:04.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DailyEnergyPredictionModel.mbconfig",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\DailyEnergyPredictionModel.mbconfig",
+              "RelativeDocumentMoniker": "CASE26_projekt\\DailyEnergyPredictionModel.mbconfig",
+              "ToolTip": "C:\\Users\\user\\Desktop\\CASE_2026_projekt\\Repo\\CASE26_projekt\\CASE26_projekt\\CASE26_projekt\\DailyEnergyPredictionModel.mbconfig",
+              "RelativeToolTip": "CASE26_projekt\\DailyEnergyPredictionModel.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2026-02-16T19:19:05.86Z",
               "EditorCaption": ""
             }
           ]
