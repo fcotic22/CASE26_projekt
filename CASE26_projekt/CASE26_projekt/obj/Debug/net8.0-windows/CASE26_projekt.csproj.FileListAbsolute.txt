@@ -113,7 +113,6 @@ C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE2
 C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\CASE26_projekt_MarkupCompile.cache
-C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\CASE26_projekt_MarkupCompile.lref
 C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\CASE26_projekt.g.resources
 C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\CASE26_projekt.GeneratedMSBuildEditorConfig.editorconfig
@@ -166,3 +165,5 @@ C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE2
 C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\bin\Debug\net8.0-windows\runtimes\win-x86\native\MklImports.dll
 C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\bin\Debug\net8.0-windows\runtimes\win-x86\native\MklProxyNative.dll
 C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\bin\Debug\net8.0-windows\runtimes\win-x86\native\libiomp5md.dll
+C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Desktop\CASE_2026_projekt\Repo\CASE26_projekt\CASE26_projekt\CASE26_projekt\obj\Debug\net8.0-windows\CASE26_projekt_MarkupCompile.lref
