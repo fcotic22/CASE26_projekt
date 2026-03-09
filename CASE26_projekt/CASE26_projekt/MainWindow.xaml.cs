@@ -127,13 +127,18 @@ namespace CASE26_projekt
                     {
                         var preds = output.Daily_energy_kWh_;
                         var sb = new System.Text.StringBuilder();
+                        var over15MinAverage = new double[preds.Length];
+
                         sb.AppendLine($"Prediction for the next {span.Value}: \n");
-                        for (int i =0; i < preds.Length; i++)
+                        for (int i = 0; i < preds.Length; i++)
                         {
-                            sb.AppendLine($"Interval {i +1}: {preds[i].ToString(CultureInfo.InvariantCulture)} kWh");
+                            sb.AppendLine($"Interval {i +1}: {preds[i].ToString()} kWh");
+                            if (i != 0) over15MinAverage[i] = preds[i] - preds[i - 1];
+                            else over15MinAverage[i] = preds[i];
                         }
-                        var avg = preds.Average();
-                        sb.AppendLine($"\nAverage over 15 minute period: {avg.ToString(CultureInfo.InvariantCulture)} kWh");
+
+                        var avg = over15MinAverage.Average();
+                        sb.AppendLine($"\nAverage over 15 minute period: {avg.ToString("F2")} kWh");
                         
                         Messages.Add(new Message { Role = MessageRoleType.Assistant, Content = sb.ToString(), Timestamp = System.DateTime.Now });
                         return;
@@ -209,7 +214,7 @@ namespace CASE26_projekt
             if (input.Contains("quarter hour") || input.Contains("next quarter hour") || input.Contains("quarter of an hour"))
                 return TimeSpan.FromMinutes(15);
 
-            var numberWords = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase)
+            var numberWords = new Dictionary<string, int>()
             {
                 ["one"] =1, ["two"] =2, ["three"] =3, ["four"] =4, ["five"] =5,
                 ["six"] =6, ["seven"] =7, ["eight"] =8, ["nine"] =9, ["ten"] =10,
@@ -308,11 +313,7 @@ namespace CASE26_projekt
         private int Get15MinIntervalCount(TimeSpan span)
         {
             var intervals = (int)Math.Ceiling(span.TotalMinutes / 15.0);
-            return Math.Max(1, intervals);
-        }
-
-        private void Button_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
-        {
+            return intervals;
         }
     }
 }
